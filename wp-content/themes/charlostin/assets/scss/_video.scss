@@ -1,0 +1,44 @@
+/* Testimonials Area css
+============================================================================================ */
+.video_area{
+	background: url(../img/video-bg-1.jpg) no-repeat fixed center center;
+	background-size: cover;
+	position: relative;
+	&:before{
+		content: "";
+		background: rgba(0, 0, 0, .5);
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 100%;
+		height: 100%;
+	}
+}
+.video_inner{
+	.video_left_text{
+		h3{
+			color: #fff;
+			font-size: 42px;
+			font-weight: normal;
+			margin-bottom: 23px;
+		}
+		p{
+			font-size: 18px;
+			font-family: $pop;
+			font-weight: 300;
+			color: #fff;
+			margin-bottom: 25px;
+		}
+	}
+	.video_icon{
+		text-align: center;
+		i{
+			color: #fff;
+			&:before{
+				font-size: 80px;
+			}
+		}
+	}
+}
+/* Testimonials Area css
+============================================================================================ */

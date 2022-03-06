@@ -1,0 +1,672 @@
+/* Welcome Area css
+============================================================================================ */
+.welcome_area{
+	
+}
+.welcome_inner{
+	.welcome_img{
+		margin-left: -5px;
+		margin-right: -5px;
+		img{
+			width: calc(100% / 2);
+			float: left;
+			padding-left: 5px;
+			padding-right: 5px;
+		}
+	}
+	.welcome_text{
+		margin-left: -100px;
+		h4{
+			color: $dip;
+			font-size: 44px;
+			margin-bottom: 15px;
+		}
+		h5{
+			font-size: 22px;
+			font-family: $lora;
+			font-style: italic;
+			font-weight: normal;
+			color: $dip;
+			margin-bottom: 20px;
+		}
+		p{
+			margin-bottom: 25px;
+		}
+	}
+}
+
+/* End Welcome Area css
+============================================================================================ */
+
+/* Feature Area css
+============================================================================================ */
+.feature_area{
+	background: url(../img/feature-bg.jpg) no-repeat scroll center center;
+	background-size: cover;
+}
+.feature_inner{
+	
+}
+.feature_item{
+	i{
+		color: $baseColor;
+		&:before{
+			font-size: 45px;
+		}
+	}
+	h4{
+		color: #fff;
+		font-size: 24px;
+		font-weight: normal;
+		margin-bottom: 12px;
+		margin-top: 16px;
+	}
+	p{
+		color: #999298;
+		margin-bottom: 0px;
+	}
+}
+/* End Feature Area css
+============================================================================================ */
+
+/* Offer Area css
+============================================================================================ */
+.offer_area{
+	
+}
+.offer_inner{
+	margin-bottom: -75px;
+}
+.offer_item{
+	margin-bottom: 75px;
+	.offer_img{
+		position: relative;
+		h4{
+			position: absolute;
+			right: 0px;
+			bottom: 0px;
+			background: $baseColor;
+			margin-bottom: 0px;
+			font-size: 30px;
+			padding: 0px 20px;
+			color: #fff;
+			line-height: 56px;
+			@include transition;
+		}
+	}
+	.offer_text{
+		border: 1px solid #e2e2e2;
+		padding: 20px 20px 27px 20px;
+		h5{
+			font-size: 25px;
+			font-weight: normal;
+			color: $dip;
+			margin-bottom: 0px;
+			span{
+				font-size: 42px;
+				line-height: 36px;
+			}	
+		}
+		a{
+			color: $baseColor;
+			text-decoration: underline;
+			font-size: 20px;
+			font-family: $play;
+			font-weight: normal;
+			position: relative;
+			top: 4px;
+		}
+	}
+	&:hover{
+		.offer_img{
+			h4{
+				background: #3d373e;
+			}
+		}
+	}
+}
+/* End Offer Area css
+============================================================================================ */
+
+/* About Hotel Area css
+============================================================================================ */
+.about_hotel_area{
+	&.history_about{
+		.about_hotel_inner{
+			.ab_hotel_img{
+				margin-bottom: 0px;
+				&:before{
+					display: none;
+				}
+				img{
+					top: 0px;
+					right: 0px;
+				}
+			}
+			.ab_hotel_text{
+				padding-left: 45px;
+				padding-right: 0px;
+			}
+		}
+	}
+}
+.about_hotel_inner{
+	.col-lg-4{
+		text-align: right;
+	}
+	.ab_hotel_text{
+		padding-right: 45px;
+		.main_title{
+			margin-bottom: 35px;
+			h2{
+				margin-bottom: 0px;
+			}
+		}
+		h5{
+			color: $dip;
+			font-size: 20px;
+			font-family: $lora;
+			font-style: italic;
+			font-weight: normal;
+			margin-bottom: 25px;
+			line-height: 26px;
+		}
+		p{
+			margin-bottom: 35px;
+			&:last-child{
+				margin-bottom: 0px;
+			}
+		}
+	}
+	.ab_hotel_img{
+		text-align: right;
+		position: relative;
+		display: inline-block;
+		margin-bottom: 30px;
+		img{
+			position: relative;
+			right: 30px;
+			top: 30px;
+		}
+		&:before{
+			content: "";
+			background: $baseColor;
+			position: absolute;
+			right: 0px;
+			top: 0px;
+			height: 100%;
+			width: 100%;
+			z-index: -1;
+		}
+	}	
+}
+/* End About Hotel Area css
+============================================================================================ */
+
+/* Facilities Area css
+============================================================================================ */
+.facilities_area{
+	background: #f5f5f5;
+}
+.facilities_inner{
+	margin-bottom: -60px;
+}
+.facilities_item{
+	margin-bottom: 60px;
+	.media{
+		.d-flex{
+			padding-right: 24px;
+			i{
+				line-height: 50px;
+				&:before{
+					font-size: 50px;
+					color: $baseColor;
+				}
+			}
+		}
+		.media-body{
+			h4{
+				font-size: 20px;
+				color: $dip;
+				margin-bottom: 15px;
+			}
+			p{
+				margin-bottom: 0px;
+			}
+		}
+	}
+}
+.facilities_bg{
+	background-image: linear-gradient(to bottom, rgba(58, 47, 57, .96) 0%,rgba(58, 47, 57, .96) 100%), url('../img/facilities-bg.jpg');
+	background-attachment: fixed;
+	background-position: center center;
+	background-size: cover;
+	.facilities_inner{
+		.facilities_item{
+			.media{
+				.d-flex{
+					
+				}
+				.media-body{
+					h4{
+						color: #fff;
+					}
+					p{
+						color: #a399a2;
+					}
+				}
+			}
+		}
+	}
+}
+.faci_blue{
+	background: url(../img/faci-blue-bg.png) no-repeat scroll center center;
+	background-size: cover;
+	padding-top: 130px;
+	.facilities_inner{
+		.facilities_item{
+			.media{
+				.d-flex{
+					
+				}
+				.media-body{
+					h4{
+						color: #fff;
+					}
+					p{
+						color: #a8afb8;
+					}
+				}
+			}
+		}
+	}
+}
+.faci_title{
+	padding-right: 60px;
+	h2{
+		font-size: 32px;
+		color: #fff;
+		position: relative;
+		margin-bottom: 50px;
+		&:before{
+			content: "";
+			width: 50px;
+			height: 2px;
+			background: $baseColor;
+			position: absolute;
+			left: 0px;
+			bottom: -22px;
+		}
+	}
+	p{
+		color: #a8afb8;
+		margin-bottom: 0px;
+	}
+}
+/* End Facilities Area css
+============================================================================================ */
+
+/* Place Area css
+============================================================================================ */
+.place_area{
+	
+}
+.place_inner{
+	.place_text{
+		margin-bottom: 55px;
+		h6{
+			margin-bottom: 0px;
+			color: $dip;
+			font-size: 28px;
+			line-height: 37px;
+			font-weight: normal;
+		}
+		p{
+			margin-bottom: 25px;
+			& + p{
+				margin-bottom: 0px;
+			}
+		}
+	}
+}
+/* End Place Area css
+============================================================================================ */
+
+/* Driving Direction Area css
+============================================================================================ */
+.direction_area{
+	.direction_inner{
+		
+	}
+}
+.mission_left{
+	.main_title{
+		margin-bottom: 35px;
+		h2{
+			margin-bottom: 0px;
+		}
+	}
+	
+}
+.mission_collaps{
+	.card{
+		border-radius: 0px;
+		border-left: 0px;
+		border-right: 0px;
+		border: none;
+		.card-header{
+			padding: 0px;
+			background: transparent;
+			border: none;
+			button{
+				padding: 0px 20px;
+				display: block;
+				border: none;
+				width: 100%;
+				text-align: left;
+				position: relative;
+				font-size: 16px;
+				color: $dip;
+				font-family: $open;
+				font-weight: bold;
+				text-transform: uppercase;
+				line-height: 50px;
+				background: #ebebeb;
+				text-decoration: none;
+				border-radius: 0px;
+				border-top: 1px solid transparent;
+				i{
+					position: absolute;
+					right: 20px;
+					top: 50%;
+					transform: translateY(-50%);
+					display: none;
+					& + i{
+						display: inline-block;
+					}
+				}
+				&.collapsed{
+					background: transparent;
+					border-top: 1px solid #dedede;
+					i{
+						display: inline-block;
+						& + i{
+							display: none;
+						}
+					}
+				}
+			}
+		}
+		.card-body{
+			padding: 30px 0px;
+			.media{
+				.d-flex{
+					padding-right: 20px;
+				}
+				.media-body{
+					h4{
+						font-size: 20px;
+						font-weight: normal;
+						color: $dip;
+						margin-bottom: 12px;
+					}
+					p{
+						font-size: 14px;
+						color: #898989;
+						line-height: 24px;
+					}
+					.link{
+						a{
+							color: #757575;
+							font-size: 14px;
+							font-family: $open;
+							margin-right: 30px;
+							i{
+								padding-right: 7px;
+							}
+							&:last-child{
+								margin-right: 0px;
+							}
+						}
+					}
+				}
+			}
+		}
+		&:last-child{
+			.card-header{
+				button{
+					border-bottom: 1px solid transparent;
+					&.collapsed{
+						border-bottom: 1px solid #dedede;
+					}
+				}
+			}
+		}
+	}
+}
+.dirving_text{
+	padding-left: 50px;
+	.main_title{
+		margin-bottom: 15px;
+		h2{}
+		p{
+			font-size: 16px;
+			color: #898989;
+			font-weight: normal;
+			font-style: normal;
+		}
+	}
+	img{
+		margin-bottom: 40px;
+	}
+	.dir_text{
+		position: relative;
+		margin-bottom: 30px;
+		&:before{
+			content: "";
+			height: 70px;
+			width: 1px;
+			background: #898989;
+			position: absolute;
+			right: 7px;
+			top: 50%;
+			transform: translateY(-50%);
+		}
+		h4{
+			font-size: 40px;
+			font-family: $open;
+			font-weight: normal;
+			color: $dip;
+			margin-bottom: 0px;
+		}
+		p{
+			color: #898989;
+			font-size: 15px;
+			margin-bottom: 0px;
+		}
+	}
+	.main_btn{
+		padding: 0px 22px;
+	}
+	.col-lg-6{
+		&:last-child{
+			.dir_text{
+				&:before{
+					display: none;
+				}
+			}
+		}
+	}
+}
+/* End Driving Direction Area css
+============================================================================================ */
+
+/* History Area css
+============================================================================================ */
+.history_area{
+	.history_inner{ 
+		.media{
+			margin-bottom: 35px;
+			position: relative;
+			z-index: 2;
+			&:before{
+				content: "";
+				height: 100%;
+				width: 1px;
+				position: absolute;
+				left: 53px;
+				top: 85px;
+				background: #d2d2d2;
+				z-index: -1;
+			}
+			.d-flex{
+				padding-right: 60px;
+				.year{
+					height: 107px;
+					width: 107px;
+					border-radius: 50%;
+					color: #fff;
+					background: $baseColor;
+					display: inline-block;
+					text-align: center;
+					line-height: 100px;
+					font-weight: bold;
+					font-style: italic;
+					font-size: 32px;
+					font-family: $play;
+				}
+			}
+			.media-body{
+				h4{
+					color: $dip;
+					font-size: 28px;
+					margin-bottom: 15px;
+				}
+				p{
+					margin-bottom: 0px;
+				}
+				.history_img{
+					margin-top: 65px;
+					margin-bottom: 35px;
+					img{
+						padding-right: 30px;
+						& + img{
+							padding-right: 0px;
+						}
+					}
+				}
+			}
+			&:last-child{
+				margin-bottom: 0px;
+				&:before{
+					display: none;
+				}
+			}
+		}
+	}
+}
+/* End History Area css
+============================================================================================ */
+
+/* Terms Area css
+============================================================================================ */
+.terms_area{
+	
+}
+.terms_inner{
+	h6{
+		font-size: 24px;
+		font-family: $lora;
+		font-style: italic;
+		font-weight: normal;
+		color: $dip;
+		margin-bottom: 40px;
+		line-height: 36px;
+	}
+	.terms_details{
+		p{
+			margin-bottom: 25px;
+			&:last-child{
+				margin-bottom: 0px;
+			}
+		}
+	}
+}
+/* End Terms Area css
+============================================================================================ */
+
+/* Conditions Area css
+============================================================================================ */
+.conditions_area{
+	background: #f4f4f4;
+	.con_title{
+		margin-bottom: 70px;
+		h2{
+			color: $dip;
+			font-size: 32px;
+			position: relative;
+			&:before{
+				content: "";
+				width: 40px;
+				height: 2px;
+				background: $baseColor;
+				position: absolute;
+				left: 0px;
+				bottom: -14px;
+			}
+		}
+	}
+}
+.conditions_inner{
+	margin-bottom: -16px;
+	.accordion{
+		.card{
+			background: transparent;
+			border: none;
+			.card-header{
+				padding: 0px;
+				background: transparent;
+				border: none;
+				button{
+					
+					display: block;
+					white-space: normal;
+					text-align: left;
+					font-size: 20px;
+					font-family: $pop;
+					font-weight: 600;
+					color: $dip;
+					border: none;
+					text-decoration: none;
+					position: relative;
+					display: inline-block;
+					padding: 16px 0px 16px 25px;
+					i{
+						display: none;
+						position: absolute;
+						left: 0px;
+						top: 16px;
+						& + i{
+							display: inline-block;
+						}
+					}
+					&.collapsed{
+						i{
+							display: inline-block;
+							& + i{
+								display: none;
+							}
+						}
+					}
+				}
+			}
+			.card-body{
+				padding: 0px 20px 35px 25px; 
+				color: $pfont;
+				font-size: 16px;
+			}
+		}
+	}
+}
+/* End Conditions Area css
+============================================================================================ */

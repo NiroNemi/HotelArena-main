@@ -1,0 +1,90 @@
+/* Main Button Area css
+============================================================================================ */
+.main_btn{
+	background-image: linear-gradient(30deg, $baseColor 50%, transparent 50%);
+	color: #fff;
+	border: 1px solid $baseColor;
+	line-height: 40px;
+	background-position: 0%;
+	display: inline-block;
+	padding: 0px 25px;
+	background-size: 500px;
+	background-repeat: no-repeat;
+	transition: background 300ms ease-in-out;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 13px;
+	font-family: $open;
+	letter-spacing: 2.6px;
+	&.black{
+		background-image: linear-gradient(30deg, #383838 50%, transparent 50%);
+		border-color: #383838;
+		&:hover{
+			color: #383838;
+			border-color: #383838;
+			background-position: 100%;
+		}
+	}
+	&:hover{
+		color: $baseColor;
+		border-color: $baseColor;
+		background-position: 100%;
+	}
+}
+
+.blue_btn{
+	background-image: linear-gradient(30deg, #2961d4 50%, transparent 50%);
+	color: #fff;
+	border: 1px solid #2961d4;
+	line-height: 42px;
+	background-position: 0%;
+	display: inline-block;
+	padding: 0px 25px;
+	background-size: 500px;
+	background-repeat: no-repeat;
+	transition: background 300ms ease-in-out;
+	text-transform: uppercase;
+	font-weight: normal;
+	font-size: 13px;
+	font-family: $pop;
+	letter-spacing: 3.12px;
+	&:hover{
+		color: #2961d4;
+		border-color: #2961d4;
+		background-position: 100%;
+	}
+}
+
+.submit_btn{
+	background-image: linear-gradient(30deg, $baseColor 50%, transparent 50%);
+	color: $dip;
+	border: 1px solid $baseColor;
+	line-height: 40px;
+	background-position: 0%;
+	display: inline-block;
+	padding: 0px 25px;
+	background-size: 500px;
+	background-repeat: no-repeat;
+	transition: background 300ms ease-in-out;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 13px;
+	font-family: $pop;
+	width: auto;
+	height: auto;
+	letter-spacing: 2.6px;
+	font-weight: normal;
+	border-radius: 0px;
+	background-color: transparent;
+	outline: none !important;
+	box-shadow: none !important;
+	cursor: pointer;
+	&:hover{
+		color: $baseColor;
+		border-color: $baseColor;
+		background-position: 100%;
+	}
+}
+
+/* End Main Button Area css
+============================================================================================ */

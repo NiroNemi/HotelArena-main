@@ -1,0 +1,33 @@
+/*font Variables*/
+$pop: 'Poppins', sans-serif;
+$open: 'Open Sans', sans-serif;
+$play: 'Playfair Display', serif;
+$lora: 'Lora', serif;
+
+
+/*Color Variables*/
+$baseColor: #bfa373; 
+$dip: #242424;
+$pfont: #797979; 
+
+
+/*=================== fonts ====================*/
+@import url('https://fonts.googleapis.com/css?family=Lora:400,400i,700|Open+Sans:300,400,600,700|Playfair+Display:400,700,900|Poppins:200,300,400,500,600,700,800');
+
+// Mixins
+@mixin transition($property: all, $duration: 300ms, $animate: linear, $delay:0s){
+    transition: $property $duration $animate $delay; 
+}
+
+// Placeholder Mixins
+
+@mixin placeholder {
+  &.placeholder { @content; }
+  &:-moz-placeholder { @content; }
+  &::-moz-placeholder { @content; }
+  &::-webkit-input-placeholder { @content; }
+}
+
+
+
+

@@ -1,0 +1,56 @@
+/* Breadcrumb Area css
+============================================================================================ */
+.breadcrumb_area{
+	background: url(../img/breadcrumb/banner-bg.jpg) no-repeat scroll center;
+	background-size: cover;
+	padding: 75px 0px;
+}
+.breadcrumb_text{
+	h2{
+		color: #fff;
+		font-size: 50px;
+		margin-bottom: 15px;
+		position: relative;
+		display: inline-block;
+		&:before{
+			content: "";
+			width: 50px;
+			height: 2px;
+			position: absolute;
+			right: -65px;
+			bottom: 7px;
+			background: $baseColor; 
+		}
+	}
+	.link{
+		a{
+			font-size: 14px;
+			color: #dcdbdb;
+			font-family: $pop;
+			margin-right: 20px;
+			position: relative;
+			&:last-child{
+				margin-right: 0px;
+			}
+			&:before{
+				content: "\f105";
+				font: normal normal normal 14px/1 FontAwesome;
+				position: absolute;
+				right: -14px;
+				top: 50%;
+				transform: translateY(-50%);
+				color: #dcdbdb;
+			}
+			&.active{
+				color: $baseColor;
+			}
+			&:last-child{
+				&:before{
+					display: none;
+				}
+			}
+		}
+	}
+}
+/* End Breadcrumb Area css
+============================================================================================ */

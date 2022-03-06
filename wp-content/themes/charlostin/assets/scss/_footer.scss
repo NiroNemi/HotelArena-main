@@ -1,0 +1,153 @@
+/* Footer Area css
+============================================================================================ */
+.footer_area{
+	background: #242424;
+	padding-top: 80px;
+}
+.footer_widgets_area{
+	padding-bottom: 65px;
+}
+.f_title{
+	margin-bottom: 35px;
+	h3{
+		color: #fff;
+		font-size: 20px;
+		position: relative;
+		&:before{
+			content: "";
+			width: 30px;
+			height: 1px;
+			background: $baseColor;
+			position: absolute;
+			left: 0px;
+			bottom: -11px;
+		}
+	}
+}
+.about_widget{
+	img{
+		margin-bottom: 22px;
+	}
+	p{
+		margin-bottom: 18px;
+		color: #a8a8a8;
+		font-size: 14px;
+		padding-right: 15px;
+	}
+	.list{
+		li{
+			display: inline-block;
+			margin-right: 10px;
+			a{
+				height: 36px;
+				width: 36px;	
+				border: 1px solid #848484;
+				display: inline-block;
+				border-radius: 50%;
+				text-align: center;
+				color: #fff;
+				line-height: 37px;
+				@include transition;
+				&:hover{
+					border-color: $baseColor;
+					color: $baseColor;
+				}	
+			}
+			&:last-child{
+				margin-right: 0px;
+			}
+		}
+	}
+}
+.link_widget{
+	.list{
+		li{
+			margin-bottom: 10px;
+			a{
+				color: #a8a8a8;
+				font-size: 14px;
+				@include transition;
+				&:hover{
+					color: $baseColor;
+				}
+			}
+			&:last-child{
+				margin-bottom: 0px;
+			}
+		}
+	}
+}
+.contact_widget{
+	h4{
+		font-size: 18px;
+		font-family: $open;
+		font-weight: normal;
+		color: #a8a8a8;
+		margin-bottom: 20px;
+	}
+	p{
+		font-size: 14px;
+		color: #a8a8a8;
+		margin-bottom: 3px;
+		a{
+			color: #a8a8a8;
+		}
+		& + p{
+			margin-bottom: 0px;
+		}
+	}
+}
+.news_widget{
+	p{
+		font-size: 14px;
+		color: #a8a8a8;
+		margin-bottom: 20px;
+	}
+	.input-group{
+		display: block;
+		input{
+			width: 100%;
+			border-radius: 0px;
+			border: 1px solid #383938;
+			background: transparent;
+			height: 46px;
+			padding: 0px 12px;
+			font-size: 14px;
+			font-family: $pop;
+			color: #838486;
+			outline: none;
+			box-shadow: none;
+			@include placeholder{
+				font-size: 14px;
+				font-family: $pop;
+				color: #838486;
+			}	
+		}
+		.input-group-append{
+			.input-group-text{
+				margin-top: 20px;
+			}
+		}
+	}
+	
+}
+
+.footer_copyright{
+	.copyright_inner{
+		border-top: 1px solid #3b3e43;
+		padding-top: 30px;
+		padding-bottom: 30px;
+		p{
+			margin-bottom: 0px;
+			font-size: 14px;
+			color: #767676;
+		}
+		a{
+			color: $baseColor;
+			font-size: 14px;
+		}
+	}
+}
+
+/* End Footer Area css
+============================================================================================ */

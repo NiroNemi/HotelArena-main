@@ -1,0 +1,98 @@
+/* Restuarant Area css
+============================================================================================ */
+.about_restuarant_area{
+	
+}
+.ab_res_inner{
+	.ab_left{
+		.main_title{
+			margin-top: 50px;
+			padding-right: 35px;
+			margin-bottom: 0px;
+			h2{
+				margin-bottom: 35px;
+			}
+			h5{
+				color: $dip;
+				font-size: 20px;
+				font-family: $lora;
+				font-weight: normal;
+				margin-bottom: 20px;
+				line-height: 26px;
+			}
+			p{
+				margin-bottom: 0px;
+				font-style: normal;
+				line-height: 26px;
+				font-size: 16px;
+				font-family: $open;
+			}
+		}
+	}
+}
+
+.ab_right{
+	img{
+		
+	}
+	h4{
+		margin-top: 50px;
+		font-size: 22px;
+		font-weight: normal;
+		color: $dip;
+		margin-bottom: 35px;
+		line-height: 34px;
+	}
+	h5{
+		font-size: 22px;
+		font-weight: normal;
+		color: $dip;
+		margin-bottom: 12px;
+		border-top: 1px solid #d8d8d8;
+		padding-top: 30px;
+		line-height: 30px;
+	}
+	p{
+		font-size: 22px;
+		font-weight: normal;
+		color: $dip;
+		margin-bottom: 0px;
+		line-height: 26px;
+	}
+}
+
+
+.dishes_area{
+	background: #f3f3f3;
+	.main_title{
+		margin-bottom: 55px;
+		h2{}
+		p{
+			color: $dip;
+			font-style: normal;
+		}
+	}
+}
+.dishes_item_inner{
+	margin-bottom: -30px;
+}
+.dishes_item{
+	background: #fff;
+	margin-bottom: 30px;
+	.dishes_text{
+		background: #fff;
+		margin-left: -30px;
+		padding-left: 55px;
+		padding-right: 60px;
+		h4{
+			color: $dip;
+			font-size: 23px;
+			margin-bottom: 15px;
+		}
+		p{
+			margin-bottom: 0px;
+		}	
+	}
+}
+/* End Restuarant Area css
+============================================================================================ */
